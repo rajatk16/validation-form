@@ -83,7 +83,7 @@ view model =
     ]
 
 header model = div []
-  [ h1 [] [ text "Contact us" ]
+  [ h1 [] [ text "Feedback Form" ]
   , renderStatus model.status]
 
 renderStatus status =
